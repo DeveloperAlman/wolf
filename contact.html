@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Sans:wght@200;400;700&family=Noto+Serif+JP:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/McWolfs's Icon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>McWolf's Prime Analytics | Contact Us</title>
+</head>
+
+<body>
+    <section class="nav">
+        <div class="container">
+            <input type="checkbox" id="check" class="nav__check">
+            <div class="nav__ham">
+                <label for="check" class="nav__check-menu">
+                    <div class="nav__check-menu-line line-1"></div>
+                    <div class="nav__check-menu-line line-2"></div>
+                    <div class="nav__check-menu-line line-3"></div>
+                </label>
+            </div>
+            <div class="nav__menu">
+                <div class="nav__menu--right">
+                    <ul class="header__list">
+                        <li class="header__item hover-1"><a href="index.html" class="header__link">Home</a></li>
+                        <li class="header__item"><a href="analysis.html" class="header__link">Analysis</a></li>
+                        <li class="header__item"><a href="stock.html" class="header__link">Stock Market</a></li>
+                        <li class="header__item"><a href="about.html" class="header__link">About Us</a></li>
+                        <li class="header__item"><a href="contact.html" class="header__link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <section class="preloader" id="preloader">
+        <div class="preloader__item">
+            <img src="img/McWolf's Item-resize-min.png" alt="preloader-img" class="preloader__item-img">
+            <p class="preloader__item-text">Working in Progress<span class="preloader__item-dot dot-1">.</span><span
+                    class="preloader__item-dot dot-2">.</span><span class="preloader__item-dot dot-3">.</span></p>
+        </div>
+    </section>
+
+    <div class="header-wrapper">
+        <div class="header__logo"><a href="#header" class="header__logo-link"><img
+                    src="img/McWolf's Item-resize-min.png" title="McWolf's Prime Analytics | Logo" alt="logo"
+                    class="header__logo-img"></a></div>
+        <nav class="header__nav navbar">
+            <ul class="header__list">
+                <li class="header__item active"><a href="index.html" class="header__link">Home</a></li>
+                <li class="header__item"><a href="analysis.html" class="header__link">Analysis</a></li>
+                <li class="header__item"><a href="stock.html" class="header__link">Stock Market</a></li>
+                <li class="header__item"><a href="about.html" class="header__link">About Us</a></li>
+                <li class="header__item"><a href="contact.html" class="header__link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="contact" id="header">
+        <div class="contact-wrapper">
+            <p class="contact__subheading">Got a question?</p>
+            <h1 class="contact__heading">Contact Mcwolf's Prime Analytics</h1>
+            <p class="contact__text">We're here to help and answer any questions you
+                might have.<br> We look forward to
+                hearing from you!</p>
+            <div class="scroll"></div>
+        </div>
+    </section>
+
+    <section class="container-contact100">
+        <div class="wrap-contact100">
+            <form class="contact100-form validate-form" method="POST" action="https://formspree.io/mknqzwzk">
+                <span class="contact100-form-title">
+                    Contact Us
+                </span>
+
+                <label class="label-input100" for="first-name">Tell us your name *</label>
+                <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+                    <input id="first-name" class="input100" type="text" name="first-name" placeholder="First name"
+                        required>
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+                    <input class="input100" type="text" name="last-name" placeholder="Last name" required>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <label class="label-input100" for="email">Enter your email *</label>
+                <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <input id="email" class="input100" type="email" name="email" placeholder="example@email.com"
+                        required>
+                    <span class="focus-input100"></span>
+                </div>
+
+
+                <label class="label-input100" for="message">Message *</label>
+                <div class="wrap-input100 validate-input" data-validate="Message is required">
+                    <textarea id="message" class="input100" name="message" placeholder="Write us a message..." required
+                        required></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <button type="submit" class="contact100-form-btn">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+
+            <div class="contact100-more flex-col-c-m" style="background-image: url('img/bg-01.jpg');"><img
+                    src="img/McWolf's Logo-resize-min.png" class="contact__img" alt="logo-contact"></div>
+        </div>
+    </section>
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="footer__img"><img src="img/McWolf's Logo-resize-min.png" alt="logo" class="footer__img-content">
+            </div>
+            <div class="description__line footer-line">
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link">Privacy & Security</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+            </ul>
+            <div class="footer__legal">
+                <p class="footer__legal-text">© Copyright 2020 by <span class="mcwolf-1"> McWolf’s</span> <span
+                        class="mcwolf-2">Prime
+                        Analytics</span>. All rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src=" js/main.js"></script>
+</body>
+
+</html>
